@@ -73,8 +73,6 @@ project/
 ├── requirements.txt
 ├── Dockerfile
 └── README.md
-
-
-
+```
 ## Author 
 Deyoz Rayamajhi
