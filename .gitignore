@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Local env files or secrets
+.env
+*.env
+
+# VS Code settings (optional)
+.vscode/
+
+# Mac & Linux system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# PyInstaller
+*.spec
+
+# Logs and debug files
+*.log
+
+# Jupyter Notebooks (if you ever use them)
+.ipynb_checkpoints/
+
+# Docker files
+*.pid
+*.tar
+*.bak
+
+# Python dependency folders
+pip-wheel-metadata/
+__pypackages__/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# MyPy and other tooling caches
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Ignore test coverage reports
+htmlcov/
+.coverage
+coverage.xml
+.cache
