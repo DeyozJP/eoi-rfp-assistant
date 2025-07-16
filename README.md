@@ -52,7 +52,9 @@ docker build -t eoiassistant
 docker run -p 8888:8000 eoiassistant
 
 
-## Project Stucture 
+## Project Structure
+
+```plaintext
 project/
 ├── backend/
 │   ├── api.py
@@ -71,6 +73,7 @@ project/
 ├── requirements.txt
 ├── Dockerfile
 └── README.md
+
 
 
 ## Author 
