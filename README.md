@@ -57,22 +57,22 @@ docker run -p 8888:8000 eoiassistant
 ```plaintext
 project/
 ├── backend/
-│   ├── api.py                      # Main FastAPI app (Dash app is mounted here)
-│   ├── file_ops.py                 # Functions to handle file upload, deletion, etc.
-│   ├── extraction_and_rag_service.py  # Core logic for extraction and RAG pipelines
-│   ├── schemas.py                 # Pydantic BaseModel classes for data structure
-│   └── vectorstore_chain.py       # Logic to create and manage vector stores
+│   ├── api.py                          # Main FastAPI app (Dash app is mounted here)
+│   ├── file_ops.py                     # Functions to handle file upload, deletion, etc.
+│   ├── extraction_and_rag_service.py   # Core logic for extraction and RAG pipelines
+│   ├── schemas.py                      # Pydantic BaseModel classes for data structure
+│   └── vectorstore_chain.py            # Logic to create and manage vector stores
 ├── utils/
-│   ├── helper_functions.py        # General utility functions
-│   ├── logger_config.py           # Logging configuration
-│   └── mathjax_utils.py           # Utility to format output using MathJax
-├── uploads/                       # Uploaded PDF files (ignored by Git)
-├── vectorestores/                 # Generated vector stores (ignored by Git)
-├── assets/                       # Static assets like images and styles
-├── ui.py                         # Dash UI code
-├── requirements.txt              # Python dependencies
-├── Dockerfile                   # Docker build instructions
-└── README.md                    # Project documentation
+│   ├── helper_functions.py             # General utility functions
+│   ├── logger_config.py                # Logging configuration
+│   └── mathjax_utils.py                # Utility to format output using MathJax
+├── uploads/                            # Uploaded PDF files (ignored by Git)
+├── vectorestores/                      # Generated vector stores (ignored by Git)
+├── assets/                             # Static assets like images and styles
+├── ui.py                               # Dash UI code
+├── requirements.txt                    # Python dependencies
+├── Dockerfile                          # Docker build instructions
+└── README.md                           # Project documentation
 
 ```
 ## Author 
