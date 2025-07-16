@@ -54,6 +54,7 @@ docker run -p 8888:8000 eoiassistant
 
 ## Project Stucture 
 project/
+
 ├── backend/
 │   ├── api.py                        
 │   ├── file_ops.py                    
