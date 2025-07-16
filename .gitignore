@@ -57,3 +57,8 @@ htmlcov/
 .coverage
 coverage.xml
 .cache
+
+
+vectorestores/
+uploads/
+logs/
