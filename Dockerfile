@@ -7,11 +7,12 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Install poppler-utils and other system dependencies
 RUN apt-get update && \
     apt-get install -y \
-    poppler-utils && \
-    libglib2.0-0 \
-    libxext6 \
-    libxrender1 \
-    libfontconfig1 && \
+        poppler-utils \
+        libglib2.0-0 \
+        libsm6\
+        libxext6 \
+        libxrender1 \
+        libfontconfig1 && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
