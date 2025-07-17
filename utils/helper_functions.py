@@ -70,7 +70,7 @@ async def load_pdf_content(filename, dir=UPLOAD_DIRECTORY, dpi=200):
 
     try:
         # Load all page images once for OCR 
-        images = convert_from_path(filepath, dpi=dpi)
+        images = convert_from_path(filepath, dpi=dpi, poppler_path="/usr/bin")
 
         with pdfplumber.open(filepath) as pdf:
             for i, page in enumerate(pdf.pages):
