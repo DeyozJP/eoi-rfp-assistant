@@ -339,7 +339,11 @@ def vector_store(
     """
 
     filename = os.path.basename(filepath).replace(".pdf", "").replace(" ", "_")
+
+    os.makedirs(persist_directory, exist_ok=True)
+    
     persist_path = os.path.join(persist_directory, filename)
+    os.makedirs(persist_path, exist_ok=True)
 
     
     logger.info(f"Creating new vector store at {persist_path}")
